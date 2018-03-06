@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="testing" thread-count="1" parallel="tests">
+    <parameter name="deviceConfigFileName" value="src/config/Config.xlsx">
+    </parameter>
+    <test name="test1">
+  <parameter name="inputTestCaseName" value="src/datasheet/Ebay1.xlsx"/>
+  <parameter name="devicesToRun" value="device1"/>
+  <classes>
+    <class name="script.ScriptRunner"/>
+  </classes>
+</test>
+
+</suite>

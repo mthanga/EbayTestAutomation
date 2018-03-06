@@ -1,0 +1,16 @@
+Mar 06, 2018 7:51:04 PM script.ScriptRunner executeExcelAction
+INFO: Current Execution Method  => actionExecuteIfExpectedDeviceMatched
+Mar 06, 2018 7:51:04 PM script.ScriptRunner executeExcelAction
+INFO: Current method input  => 1.0
+Mar 06, 2018 7:51:04 PM script.ScriptRunner executeExcelAction
+INFO: Current method expected   => VIVO
+Mar 06, 2018 7:51:04 PM script.ScriptRunner executeExcelAction
+INFO: Current method actual   => VIVO
+Mar 06, 2018 7:51:05 PM script.ScriptRunner executeExcelAction
+INFO: Current Execution Method  => actionTabByCordinates
+Mar 06, 2018 7:51:05 PM script.ScriptRunner executeExcelAction
+INFO: Current method input  => 503,551
+Mar 06, 2018 7:51:10 PM script.ScriptRunner executeExcelAction
+INFO: Current method expected   => null
+Mar 06, 2018 7:51:10 PM script.ScriptRunner executeExcelAction
+INFO: Current method actual   => null

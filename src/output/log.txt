@@ -1,0 +1,3 @@
+[Appium] Welcome to Appium v1.7.2
+[Appium] Non-default server args:
+[Appium]   sessionOverride: true

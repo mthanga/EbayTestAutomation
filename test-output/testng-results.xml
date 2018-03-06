@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="testing" duration-ms="6005" started-at="2018-03-06T14:28:34Z" finished-at="2018-03-06T14:28:40Z">
+    <groups>
+    </groups>
+    <test name="test1" duration-ms="6005" started-at="2018-03-06T14:28:34Z" finished-at="2018-03-06T14:28:40Z">
+      <class name="script.ScriptRunner">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:script.ScriptRunner@31b7dea0]" name="setup" is-config="true" duration-ms="19998" started-at="2018-03-06T19:58:14Z" finished-at="2018-03-06T19:58:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[src/config/Config.xlsx]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="executeTestCase(java.lang.String, java.lang.String)[pri:0, instance:script.ScriptRunner@31b7dea0]" name="executeTestCase" duration-ms="5989" started-at="2018-03-06T19:58:34Z" finished-at="2018-03-06T19:58:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[src/datasheet/Ebay1.xlsx]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[device1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeTestCase -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:script.ScriptRunner@31b7dea0]" name="tearDown" is-config="true" duration-ms="4417" started-at="2018-03-06T19:58:40Z" finished-at="2018-03-06T19:58:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- script.ScriptRunner -->
+    </test> <!-- test1 -->
+  </suite> <!-- testing -->
+</testng-results>
