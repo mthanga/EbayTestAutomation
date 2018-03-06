@@ -1,0 +1,426 @@
+Mar 06, 2018 9:39:24 PM script.ScriptRunner executeExcelAction
+INFO: Current Execution Method  => actionExecuteIfExpectedDeviceMatched
+Mar 06, 2018 9:39:24 PM script.ScriptRunner executeExcelAction
+INFO: Current method input  => 10.0
+Mar 06, 2018 9:39:24 PM script.ScriptRunner executeExcelAction
+INFO: Current method expected   => VIVO
+Mar 06, 2018 9:39:24 PM script.ScriptRunner executeExcelAction
+INFO: Current method actual   => VIVO
+Mar 06, 2018 9:39:24 PM script.ScriptRunner executeExcelAction
+INFO: Current Execution Method  => actionTabByCordinates
+Mar 06, 2018 9:39:24 PM script.ScriptRunner executeExcelAction
+INFO: Current method input  => 503,551
+Mar 06, 2018 9:39:29 PM script.ScriptRunner executeExcelAction
+INFO: Current method expected   => null
+Mar 06, 2018 9:39:29 PM script.ScriptRunner executeExcelAction
+INFO: Current method actual   => null
+Mar 06, 2018 9:39:29 PM script.ScriptRunner executeExcelAction
+INFO: Current Execution Method  => actionLongPressByCordinates
+Mar 06, 2018 9:39:29 PM script.ScriptRunner executeExcelAction
+INFO: Current method input  => 148,280
+Mar 06, 2018 9:39:34 PM script.ScriptRunner executeExcelAction
+INFO: Current method expected   => null
+Mar 06, 2018 9:39:34 PM script.ScriptRunner executeExcelAction
+INFO: Current method actual   => null
+Mar 06, 2018 9:39:34 PM script.ScriptRunner executeExcelAction
+INFO: Current Execution Method  => actionTabByCordinates
+Mar 06, 2018 9:39:34 PM script.ScriptRunner executeExcelAction
+INFO: Current method input  => 184,212
+Mar 06, 2018 9:39:39 PM script.ScriptRunner executeExcelAction
+INFO: Current method expected   => null
+Mar 06, 2018 9:39:39 PM script.ScriptRunner executeExcelAction
+INFO: Current method actual   => null
+Mar 06, 2018 9:39:40 PM script.ScriptRunner executeExcelAction
+INFO: Current Execution Method  => actionTabByCordinates
+Mar 06, 2018 9:39:40 PM script.ScriptRunner executeExcelAction
+INFO: Current method input  => 103,201
+Mar 06, 2018 9:39:45 PM script.ScriptRunner executeExcelAction
+INFO: Current method expected   => null
+Mar 06, 2018 9:39:45 PM script.ScriptRunner executeExcelAction
+INFO: Current method actual   => null
+Mar 06, 2018 9:39:45 PM script.ScriptRunner executeExcelAction
+INFO: Current Execution Method  => actionEnterTextByKeyEvent
+Mar 06, 2018 9:39:45 PM script.ScriptRunner executeExcelAction
+INFO: Current method input  => thangaraj.matheson@gmail.com
+Mar 06, 2018 9:39:49 PM script.ScriptRunner executeExcelAction
+INFO: Current method expected   => null
+Mar 06, 2018 9:39:49 PM script.ScriptRunner executeExcelAction
+INFO: Current method actual   => null
+Mar 06, 2018 9:39:49 PM script.ScriptRunner executeExcelAction
+INFO: Current Execution Method  => actionTabByCordinates
+Mar 06, 2018 9:39:49 PM script.ScriptRunner executeExcelAction
+INFO: Current method input  => 150,402
+Mar 06, 2018 9:39:54 PM script.ScriptRunner executeExcelAction
+INFO: Current method expected   => null
+Mar 06, 2018 9:39:54 PM script.ScriptRunner executeExcelAction
+INFO: Current method actual   => null
+Mar 06, 2018 9:39:54 PM script.ScriptRunner executeExcelAction
+INFO: Current Execution Method  => actionTabByCordinates
+Mar 06, 2018 9:39:54 PM script.ScriptRunner executeExcelAction
+INFO: Current method input  => 150,402
+Mar 06, 2018 9:40:00 PM script.ScriptRunner executeExcelAction
+INFO: Current method expected   => null
+Mar 06, 2018 9:40:00 PM script.ScriptRunner executeExcelAction
+INFO: Current method actual   => null
+Mar 06, 2018 9:40:00 PM script.ScriptRunner executeExcelAction
+INFO: Current Execution Method  => actionEnterTextByKeyEvent
+Mar 06, 2018 9:40:00 PM script.ScriptRunner executeExcelAction
+INFO: Current method input  => naveenkumar1
+Mar 06, 2018 9:40:02 PM script.ScriptRunner executeExcelAction
+INFO: Current method expected   => null
+Mar 06, 2018 9:40:02 PM script.ScriptRunner executeExcelAction
+INFO: Current method actual   => null
+Mar 06, 2018 9:40:02 PM script.ScriptRunner executeExcelAction
+INFO: Current Execution Method  => actionTabByCordinates
+Mar 06, 2018 9:40:02 PM script.ScriptRunner executeExcelAction
+INFO: Current method input  => 515,545
+Mar 06, 2018 9:40:08 PM script.ScriptRunner executeExcelAction
+INFO: Current method expected   => null
+Mar 06, 2018 9:40:08 PM script.ScriptRunner executeExcelAction
+INFO: Current method actual   => null
+Mar 06, 2018 9:40:08 PM script.ScriptRunner executeExcelAction
+INFO: Current Execution Method  => actionTabByCordinates
+Mar 06, 2018 9:40:08 PM script.ScriptRunner executeExcelAction
+INFO: Current method input  => 312,885
+Mar 06, 2018 9:40:13 PM script.ScriptRunner executeExcelAction
+INFO: Current method expected   => null
+Mar 06, 2018 9:40:13 PM script.ScriptRunner executeExcelAction
+INFO: Current method actual   => null
+Mar 06, 2018 9:40:13 PM script.ScriptRunner executeExcelAction
+INFO: Current Execution Method  => actionWaitUntilComponentDisplayed
+Mar 06, 2018 9:40:13 PM script.ScriptRunner executeExcelAction
+INFO: Current method input  => null
+Mar 06, 2018 9:40:14 PM script.ScriptRunner executeExcelAction
+INFO: Current method expected   => Displayed
+Mar 06, 2018 9:40:14 PM script.ScriptRunner executeExcelAction
+INFO: Current method actual   => Displayed
+Mar 06, 2018 9:40:14 PM script.ScriptRunner executeExcelAction
+INFO: Current Execution Method  => actionClick
+Mar 06, 2018 9:40:14 PM script.ScriptRunner executeExcelAction
+INFO: Current method input  => null
+Mar 06, 2018 9:40:14 PM script.ScriptRunner executeExcelAction
+INFO: Current method expected   => null
+Mar 06, 2018 9:40:14 PM script.ScriptRunner executeExcelAction
+INFO: Current method actual   => null
+Mar 06, 2018 9:40:14 PM script.ScriptRunner executeExcelAction
+INFO: Current Execution Method  => actionEnterText
+Mar 06, 2018 9:40:14 PM script.ScriptRunner executeExcelAction
+INFO: Current method input  => vivo v7 mobile
+Mar 06, 2018 9:40:26 PM script.ScriptRunner executeExcelAction
+INFO: Current method expected   => null
+Mar 06, 2018 9:40:26 PM script.ScriptRunner executeExcelAction
+INFO: Current method actual   => null
+Mar 06, 2018 9:40:26 PM script.ScriptRunner executeExcelAction
+INFO: Current Execution Method  => actionClick
+Mar 06, 2018 9:40:26 PM script.ScriptRunner executeExcelAction
+INFO: Current method input  => null
+Mar 06, 2018 9:40:28 PM script.ScriptRunner executeExcelAction
+INFO: Current method expected   => null
+Mar 06, 2018 9:40:28 PM script.ScriptRunner executeExcelAction
+INFO: Current method actual   => null
+Mar 06, 2018 9:40:29 PM script.ScriptRunner executeExcelAction
+INFO: Current Execution Method  => actionWaitUntilComponenetInvisibile
+Mar 06, 2018 9:40:29 PM script.ScriptRunner executeExcelAction
+INFO: Current method input  => null
+Mar 06, 2018 9:40:45 PM script.ScriptRunner executeExcelAction
+INFO: Current method expected   => Not Displayed
+Mar 06, 2018 9:40:45 PM script.ScriptRunner executeExcelAction
+INFO: Current method actual   => Not Displayed
+Mar 06, 2018 9:40:45 PM script.ScriptRunner executeExcelAction
+INFO: Current Execution Method  => actionExecuteIfExpectedDeviceMatched
+Mar 06, 2018 9:40:45 PM script.ScriptRunner executeExcelAction
+INFO: Current method input  => 1.0
+Mar 06, 2018 9:40:45 PM script.ScriptRunner executeExcelAction
+INFO: Current method expected   => VIVO
+Mar 06, 2018 9:40:45 PM script.ScriptRunner executeExcelAction
+INFO: Current method actual   => VIVO
+Mar 06, 2018 9:40:46 PM script.ScriptRunner executeExcelAction
+INFO: Current Execution Method  => actionTabByCordinates
+Mar 06, 2018 9:40:46 PM script.ScriptRunner executeExcelAction
+INFO: Current method input  => 213,817
+Mar 06, 2018 9:40:51 PM script.ScriptRunner executeExcelAction
+INFO: Current method expected   => null
+Mar 06, 2018 9:40:51 PM script.ScriptRunner executeExcelAction
+INFO: Current method actual   => null
+Mar 06, 2018 9:40:51 PM script.ScriptRunner executeExcelAction
+INFO: Current Execution Method  => actionDelay
+Mar 06, 2018 9:40:51 PM script.ScriptRunner executeExcelAction
+INFO: Current method input  => 5000.0
+Mar 06, 2018 9:40:56 PM script.ScriptRunner executeExcelAction
+INFO: Current method expected   => null
+Mar 06, 2018 9:40:56 PM script.ScriptRunner executeExcelAction
+INFO: Current method actual   => null
+Mar 06, 2018 9:40:56 PM script.ScriptRunner executeExcelAction
+INFO: Current Execution Method  => actionClick
+Mar 06, 2018 9:40:56 PM script.ScriptRunner executeExcelAction
+INFO: Current method input  => null
+Mar 06, 2018 9:40:57 PM script.ScriptRunner executeExcelAction
+INFO: Current method expected   => null
+Mar 06, 2018 9:40:57 PM script.ScriptRunner executeExcelAction
+INFO: Current method actual   => null
+Mar 06, 2018 9:40:57 PM script.ScriptRunner executeExcelAction
+INFO: Current Execution Method  => actionLongpress
+Mar 06, 2018 9:40:57 PM script.ScriptRunner executeExcelAction
+INFO: Current method input  => null
+Mar 06, 2018 9:40:59 PM script.ScriptRunner executeExcelAction
+INFO: Current method expected   => null
+Mar 06, 2018 9:40:59 PM script.ScriptRunner executeExcelAction
+INFO: Current method actual   => null
+Mar 06, 2018 9:40:59 PM script.ScriptRunner executeExcelAction
+INFO: Current Execution Method  => actionExecuteIfExpectedDeviceMatched
+Mar 06, 2018 9:40:59 PM script.ScriptRunner executeExcelAction
+INFO: Current method input  => 1.0
+Mar 06, 2018 9:40:59 PM script.ScriptRunner executeExcelAction
+INFO: Current method expected   => VIVO
+Mar 06, 2018 9:40:59 PM script.ScriptRunner executeExcelAction
+INFO: Current method actual   => VIVO
+Mar 06, 2018 9:40:59 PM script.ScriptRunner executeExcelAction
+INFO: Current Execution Method  => actionTabByCordinates
+Mar 06, 2018 9:40:59 PM script.ScriptRunner executeExcelAction
+INFO: Current method input  => 670,1298
+Mar 06, 2018 9:41:05 PM script.ScriptRunner executeExcelAction
+INFO: Current method expected   => null
+Mar 06, 2018 9:41:05 PM script.ScriptRunner executeExcelAction
+INFO: Current method actual   => null
+Mar 06, 2018 9:41:05 PM script.ScriptRunner executeExcelAction
+INFO: Current Execution Method  => actionWaitUntilComponentDisplayed
+Mar 06, 2018 9:41:05 PM script.ScriptRunner executeExcelAction
+INFO: Current method input  => null
+Mar 06, 2018 9:41:10 PM script.ScriptRunner executeExcelAction
+INFO: Current method expected   => Displayed
+Mar 06, 2018 9:41:10 PM script.ScriptRunner executeExcelAction
+INFO: Current method actual   => Displayed
+Mar 06, 2018 9:41:10 PM script.ScriptRunner executeExcelAction
+INFO: Current Execution Method  => actionWaitUntilComponenetInvisibile
+Mar 06, 2018 9:41:10 PM script.ScriptRunner executeExcelAction
+INFO: Current method input  => null
+Mar 06, 2018 9:41:31 PM script.ScriptRunner executeExcelAction
+INFO: Current method expected   => Not Displayed
+Mar 06, 2018 9:41:31 PM script.ScriptRunner executeExcelAction
+INFO: Current method actual   => Not Displayed
+Mar 06, 2018 9:41:31 PM script.ScriptRunner executeExcelAction
+INFO: Current Execution Method  => actionSwipeBottomToTop
+Mar 06, 2018 9:41:31 PM script.ScriptRunner executeExcelAction
+INFO: Current method input  => null
+Mar 06, 2018 9:41:32 PM script.ScriptRunner executeExcelAction
+INFO: Current method expected   => null
+Mar 06, 2018 9:41:32 PM script.ScriptRunner executeExcelAction
+INFO: Current method actual   => null
+Mar 06, 2018 9:41:32 PM script.ScriptRunner executeExcelAction
+INFO: Current Execution Method  => actionSwipeBottomToTop
+Mar 06, 2018 9:41:32 PM script.ScriptRunner executeExcelAction
+INFO: Current method input  => null
+Mar 06, 2018 9:41:34 PM script.ScriptRunner executeExcelAction
+INFO: Current method expected   => null
+Mar 06, 2018 9:41:34 PM script.ScriptRunner executeExcelAction
+INFO: Current method actual   => null
+Mar 06, 2018 9:41:35 PM script.ScriptRunner executeExcelAction
+INFO: Current Execution Method  => actionSwipeBottomToTop
+Mar 06, 2018 9:41:35 PM script.ScriptRunner executeExcelAction
+INFO: Current method input  => null
+Mar 06, 2018 9:41:37 PM script.ScriptRunner executeExcelAction
+INFO: Current method expected   => null
+Mar 06, 2018 9:41:37 PM script.ScriptRunner executeExcelAction
+INFO: Current method actual   => null
+Mar 06, 2018 9:41:37 PM script.ScriptRunner executeExcelAction
+INFO: Current Execution Method  => actionExecuteIfExpectedDeviceMatched
+Mar 06, 2018 9:41:37 PM script.ScriptRunner executeExcelAction
+INFO: Current method input  => 1.0
+Mar 06, 2018 9:41:37 PM script.ScriptRunner executeExcelAction
+INFO: Current method expected   => VIVO
+Mar 06, 2018 9:41:37 PM script.ScriptRunner executeExcelAction
+INFO: Current method actual   => VIVO
+Mar 06, 2018 9:41:37 PM script.ScriptRunner executeExcelAction
+INFO: Current Execution Method  => actionTabByCordinates
+Mar 06, 2018 9:41:37 PM script.ScriptRunner executeExcelAction
+INFO: Current method input  => 370,1054
+Mar 06, 2018 9:41:42 PM script.ScriptRunner executeExcelAction
+INFO: Current method expected   => Displayed
+Mar 06, 2018 9:41:42 PM script.ScriptRunner executeExcelAction
+INFO: Current method actual   => null
+Mar 06, 2018 9:41:42 PM script.ScriptRunner executeExcelAction
+INFO: Current Execution Method  => actionWaitUntilComponentDisplayed
+Mar 06, 2018 9:41:42 PM script.ScriptRunner executeExcelAction
+INFO: Current method input  => null
+Mar 06, 2018 9:41:42 PM script.ScriptRunner executeExcelAction
+INFO: Current method expected   => Displayed
+Mar 06, 2018 9:41:42 PM script.ScriptRunner executeExcelAction
+INFO: Current method actual   => Displayed
+Mar 06, 2018 9:41:42 PM script.ScriptRunner executeExcelAction
+INFO: Current Execution Method  => actionClick
+Mar 06, 2018 9:41:42 PM script.ScriptRunner executeExcelAction
+INFO: Current method input  => null
+Mar 06, 2018 9:41:43 PM script.ScriptRunner executeExcelAction
+INFO: Current method expected   => null
+Mar 06, 2018 9:41:43 PM script.ScriptRunner executeExcelAction
+INFO: Current method actual   => null
+Mar 06, 2018 9:41:43 PM script.ScriptRunner executeExcelAction
+INFO: Current Execution Method  => actionClick
+Mar 06, 2018 9:41:43 PM script.ScriptRunner executeExcelAction
+INFO: Current method input  => null
+Mar 06, 2018 9:41:45 PM script.ScriptRunner executeExcelAction
+INFO: Current method expected   => null
+Mar 06, 2018 9:41:45 PM script.ScriptRunner executeExcelAction
+INFO: Current method actual   => null
+Mar 06, 2018 9:41:45 PM script.ScriptRunner executeExcelAction
+INFO: Current Execution Method  => actionClick
+Mar 06, 2018 9:41:45 PM script.ScriptRunner executeExcelAction
+INFO: Current method input  => null
+Mar 06, 2018 9:41:46 PM script.ScriptRunner executeExcelAction
+INFO: Current method expected   => null
+Mar 06, 2018 9:41:46 PM script.ScriptRunner executeExcelAction
+INFO: Current method actual   => null
+Mar 06, 2018 9:41:46 PM script.ScriptRunner executeExcelAction
+INFO: Current Execution Method  => actionWaitUntilComponentDisplayed
+Mar 06, 2018 9:41:46 PM script.ScriptRunner executeExcelAction
+INFO: Current method input  => null
+Mar 06, 2018 9:41:50 PM script.ScriptRunner executeExcelAction
+INFO: Current method expected   => null
+Mar 06, 2018 9:41:50 PM script.ScriptRunner executeExcelAction
+INFO: Current method actual   => Displayed
+Mar 06, 2018 9:41:50 PM script.ScriptRunner executeExcelAction
+INFO: Current Execution Method  => actionEnterText
+Mar 06, 2018 9:41:50 PM script.ScriptRunner executeExcelAction
+INFO: Current method input  => 5265870402122245
+Mar 06, 2018 9:42:00 PM script.ScriptRunner executeExcelAction
+INFO: Current method expected   => null
+Mar 06, 2018 9:42:00 PM script.ScriptRunner executeExcelAction
+INFO: Current method actual   => null
+Mar 06, 2018 9:42:00 PM script.ScriptRunner executeExcelAction
+INFO: Current Execution Method  => actionEnterText
+Mar 06, 2018 9:42:00 PM script.ScriptRunner executeExcelAction
+INFO: Current method input  => thangaraj
+Mar 06, 2018 9:42:09 PM script.ScriptRunner executeExcelAction
+INFO: Current method expected   => null
+Mar 06, 2018 9:42:09 PM script.ScriptRunner executeExcelAction
+INFO: Current method actual   => null
+Mar 06, 2018 9:42:09 PM script.ScriptRunner executeExcelAction
+INFO: Current Execution Method  => actionClick
+Mar 06, 2018 9:42:09 PM script.ScriptRunner executeExcelAction
+INFO: Current method input  => null
+Mar 06, 2018 9:42:11 PM script.ScriptRunner executeExcelAction
+INFO: Current method expected   => null
+Mar 06, 2018 9:42:11 PM script.ScriptRunner executeExcelAction
+INFO: Current method actual   => null
+Mar 06, 2018 9:42:11 PM script.ScriptRunner executeExcelAction
+INFO: Current Execution Method  => actionExecuteIfExpectedDeviceMatched
+Mar 06, 2018 9:42:11 PM script.ScriptRunner executeExcelAction
+INFO: Current method input  => 1.0
+Mar 06, 2018 9:42:11 PM script.ScriptRunner executeExcelAction
+INFO: Current method expected   => VIVO
+Mar 06, 2018 9:42:11 PM script.ScriptRunner executeExcelAction
+INFO: Current method actual   => VIVO
+Mar 06, 2018 9:42:11 PM script.ScriptRunner executeExcelAction
+INFO: Current Execution Method  => actionTabByCordinates
+Mar 06, 2018 9:42:11 PM script.ScriptRunner executeExcelAction
+INFO: Current method input  => 445,478
+Mar 06, 2018 9:42:17 PM script.ScriptRunner executeExcelAction
+INFO: Current method expected   => null
+Mar 06, 2018 9:42:17 PM script.ScriptRunner executeExcelAction
+INFO: Current method actual   => null
+Mar 06, 2018 9:42:17 PM script.ScriptRunner executeExcelAction
+INFO: Current Execution Method  => actionClick
+Mar 06, 2018 9:42:17 PM script.ScriptRunner executeExcelAction
+INFO: Current method input  => null
+Mar 06, 2018 9:42:17 PM script.ScriptRunner executeExcelAction
+INFO: Current method expected   => null
+Mar 06, 2018 9:42:17 PM script.ScriptRunner executeExcelAction
+INFO: Current method actual   => null
+Mar 06, 2018 9:42:17 PM script.ScriptRunner executeExcelAction
+INFO: Current Execution Method  => actionExecuteIfExpectedDeviceMatched
+Mar 06, 2018 9:42:17 PM script.ScriptRunner executeExcelAction
+INFO: Current method input  => 1.0
+Mar 06, 2018 9:42:17 PM script.ScriptRunner executeExcelAction
+INFO: Current method expected   => VIVO
+Mar 06, 2018 9:42:17 PM script.ScriptRunner executeExcelAction
+INFO: Current method actual   => VIVO
+Mar 06, 2018 9:42:18 PM script.ScriptRunner executeExcelAction
+INFO: Current Execution Method  => actionTabByCordinates
+Mar 06, 2018 9:42:18 PM script.ScriptRunner executeExcelAction
+INFO: Current method input  => 445,478
+Mar 06, 2018 9:42:24 PM script.ScriptRunner executeExcelAction
+INFO: Current method expected   => null
+Mar 06, 2018 9:42:24 PM script.ScriptRunner executeExcelAction
+INFO: Current method actual   => null
+Mar 06, 2018 9:42:24 PM script.ScriptRunner executeExcelAction
+INFO: Current Execution Method  => actionEnterText
+Mar 06, 2018 9:42:24 PM script.ScriptRunner executeExcelAction
+INFO: Current method input  => 123
+Mar 06, 2018 9:42:35 PM script.ScriptRunner executeExcelAction
+INFO: Current method expected   => null
+Mar 06, 2018 9:42:35 PM script.ScriptRunner executeExcelAction
+INFO: Current method actual   => null
+Mar 06, 2018 9:42:35 PM script.ScriptRunner executeExcelAction
+INFO: Current Execution Method  => actionClick
+Mar 06, 2018 9:42:35 PM script.ScriptRunner executeExcelAction
+INFO: Current method input  => null
+Mar 06, 2018 9:42:36 PM script.ScriptRunner executeExcelAction
+INFO: Current method expected   => null
+Mar 06, 2018 9:42:36 PM script.ScriptRunner executeExcelAction
+INFO: Current method actual   => null
+Mar 06, 2018 9:42:36 PM script.ScriptRunner executeExcelAction
+INFO: Current Execution Method  => actionClick
+Mar 06, 2018 9:42:36 PM script.ScriptRunner executeExcelAction
+INFO: Current method input  => null
+Mar 06, 2018 9:42:37 PM script.ScriptRunner executeExcelAction
+INFO: Current method expected   => null
+Mar 06, 2018 9:42:37 PM script.ScriptRunner executeExcelAction
+INFO: Current method actual   => null
+Mar 06, 2018 9:42:37 PM script.ScriptRunner executeExcelAction
+INFO: Current Execution Method  => actionClick
+Mar 06, 2018 9:42:37 PM script.ScriptRunner executeExcelAction
+INFO: Current method input  => null
+Mar 06, 2018 9:42:38 PM script.ScriptRunner executeExcelAction
+INFO: Current method expected   => null
+Mar 06, 2018 9:42:38 PM script.ScriptRunner executeExcelAction
+INFO: Current method actual   => null
+Mar 06, 2018 9:42:38 PM script.ScriptRunner executeExcelAction
+INFO: Current Execution Method  => actionClick
+Mar 06, 2018 9:42:38 PM script.ScriptRunner executeExcelAction
+INFO: Current method input  => null
+Mar 06, 2018 9:42:40 PM script.ScriptRunner executeExcelAction
+INFO: Current method expected   => null
+Mar 06, 2018 9:42:40 PM script.ScriptRunner executeExcelAction
+INFO: Current method actual   => null
+Mar 06, 2018 9:42:40 PM script.ScriptRunner executeExcelAction
+INFO: Current Execution Method  => actionGetMessage
+Mar 06, 2018 9:42:40 PM script.ScriptRunner executeExcelAction
+INFO: Current method input  => null
+Mar 06, 2018 9:42:41 PM script.ScriptRunner executeExcelAction
+INFO: Current method expected   => tm4261
+Mar 06, 2018 9:42:41 PM script.ScriptRunner executeExcelAction
+INFO: Current method actual   => tm4261
+Mar 06, 2018 9:42:41 PM script.ScriptRunner executeExcelAction
+INFO: Current Execution Method  => actionClick
+Mar 06, 2018 9:42:41 PM script.ScriptRunner executeExcelAction
+INFO: Current method input  => null
+Mar 06, 2018 9:42:41 PM script.ScriptRunner executeExcelAction
+INFO: Current method expected   => null
+Mar 06, 2018 9:42:41 PM script.ScriptRunner executeExcelAction
+INFO: Current method actual   => null
+Mar 06, 2018 9:42:41 PM script.ScriptRunner executeExcelAction
+INFO: Current Execution Method  => actionExecuteIfExpectedDeviceMatched
+Mar 06, 2018 9:42:41 PM script.ScriptRunner executeExcelAction
+INFO: Current method input  => 1.0
+Mar 06, 2018 9:42:41 PM script.ScriptRunner executeExcelAction
+INFO: Current method expected   => VIVO
+Mar 06, 2018 9:42:41 PM script.ScriptRunner executeExcelAction
+INFO: Current method actual   => VIVO
+Mar 06, 2018 9:42:41 PM script.ScriptRunner executeExcelAction
+INFO: Current Execution Method  => actionTabByCordinates
+Mar 06, 2018 9:42:41 PM script.ScriptRunner executeExcelAction
+INFO: Current method input  => 220,500
+Mar 06, 2018 9:42:47 PM script.ScriptRunner executeExcelAction
+INFO: Current method expected   => null
+Mar 06, 2018 9:42:47 PM script.ScriptRunner executeExcelAction
+INFO: Current method actual   => null
+Mar 06, 2018 9:42:47 PM script.ScriptRunner executeExcelAction
+INFO: Current Execution Method  => actionClick
+Mar 06, 2018 9:42:47 PM script.ScriptRunner executeExcelAction
+INFO: Current method input  => null
+Mar 06, 2018 9:42:48 PM script.ScriptRunner executeExcelAction
+INFO: Current method expected   => null
+Mar 06, 2018 9:42:48 PM script.ScriptRunner executeExcelAction
+INFO: Current method actual   => null
+Mar 06, 2018 9:42:48 PM script.ScriptRunner executeExcelAction
+INFO: Exception on executing current method => null

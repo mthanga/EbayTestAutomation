@@ -3,6 +3,7 @@ package actions;
 import java.util.HashMap;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.Rotatable;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -48,6 +49,7 @@ public class Action {
 		
 		try{
 			driver = (AndroidDriver) Setup.getDriver(deviceName, driverDetailsMap);
+			checkScreenOrientationIsInPortrait(driver);
 			MultiTouchAction maction = new MultiTouchAction((MobileDriver) driver);
 			TouchAction action = new TouchAction((MobileDriver) driver).tap(xCordinateValue, yCordinateValue).waitAction(5000);
 			maction.add(action).perform();
@@ -72,7 +74,7 @@ public class Action {
 		
 		try{
 			driver = (AndroidDriver) Setup.getDriver(deviceName, driverDetailsMap);
-		
+			checkScreenOrientationIsInPortrait(driver);
 			MultiTouchAction maction = new MultiTouchAction((MobileDriver) driver);
 			TouchAction action = new TouchAction((MobileDriver) driver).longPress(xCordinateValue, yCordinateValue).waitAction(3000);
 			maction.add(action).perform();
@@ -95,7 +97,7 @@ public class Action {
 	       
 	       try{
 				driver = (AndroidDriver) Setup.getDriver(deviceName, driverDetailsMap);
-		   
+				checkScreenOrientationIsInPortrait(driver);
 	            By identifierFindMethod = getIdentifierFindMethod(componentType, componentValue);
 	            componentStatus = waitUntilComponentDisplayed(driver, identifierFindMethod, componentValue, actionStarttime);
 				if(Utility.isNull(componentStatus)){
@@ -122,7 +124,7 @@ public class Action {
 		try{
 			
 			driver = (AndroidDriver) Setup.getDriver(deviceName, driverDetailsMap);
-			
+			checkScreenOrientationIsInPortrait(driver);
 			driver.getKeyboard().sendKeys(input);
 			
 		}catch(Exception e){
@@ -141,6 +143,7 @@ public class Action {
 		
 		try{
 			WebDriver driver = Setup.getDriver(deviceName, driverDetailsMap);
+			checkScreenOrientationIsInPortrait(driver);
 			By identifierFindMethod = getIdentifierFindMethod(componentType, componentValue);
 			System.out.println("waiting for the component");
 			driver.findElement(identifierFindMethod).isDisplayed();
@@ -168,6 +171,7 @@ public class Action {
 		
 		try{
 			WebDriver driver = Setup.getDriver(deviceName, driverDetailsMap);
+			checkScreenOrientationIsInPortrait(driver);
 			By identifierFindMethod = getIdentifierFindMethod(componentType, componentValue);
 			componentStatus = waitUntilComponentDisplayed(driver, identifierFindMethod, componentValue, actionStarttime);
 			if(Utility.isNull(componentStatus)){
@@ -195,6 +199,7 @@ public class Action {
 		
 		try{
 			WebDriver driver = Setup.getDriver(deviceName, driverDetailsMap);
+			checkScreenOrientationIsInPortrait(driver);
 			By identifierFindMethod = getIdentifierFindMethod(componentType, componentValue);
 			componentStatus = waitUntilComponentDisplayed(driver, identifierFindMethod, componentValue, actionStarttime);
 			if(Utility.isNull(componentStatus)){
@@ -221,6 +226,7 @@ public class Action {
 		
 		try{
 			WebDriver driver = Setup.getDriver(deviceName, driverDetailsMap);
+			checkScreenOrientationIsInPortrait(driver);
 			By identifierFindMethod = getIdentifierFindMethod(componentType, componentValue);
 			message = waitUntilComponentDisplayed(driver, identifierFindMethod, componentValue, actionStarttime);
 			if(Utility.isNull(message)){
@@ -244,6 +250,7 @@ public class Action {
 
 		try{
 			WebDriver driver = Setup.getDriver(deviceName, driverDetailsMap);
+			checkScreenOrientationIsInPortrait(driver);
 			By identifierFindMethod = getIdentifierFindMethod(componentType, componentValue);
 			System.out.println("waiting for the component to disappear");	
 			WebDriverWait wait = new WebDriverWait(driver, 30);
@@ -279,7 +286,7 @@ public class Action {
 		
 		try{
 			driver = (AndroidDriver) Setup.getDriver(deviceName, driverDetailsMap);
-			
+			checkScreenOrientationIsInPortrait(driver);
 			Utility.swipingBottomToTop(driver, 0, 0);
 			
 		}catch(Exception e){
@@ -297,7 +304,7 @@ public class Action {
 		
 		try{
 			driver = (AndroidDriver) Setup.getDriver(deviceName, driverDetailsMap);
-			
+			checkScreenOrientationIsInPortrait(driver);
 			Utility.swipingTopToBottom(driver, 0, 0);
 			
 		}catch(Exception e){
@@ -317,7 +324,7 @@ public class Action {
 		
 		try{
 			driver = (AndroidDriver) Setup.getDriver(deviceName, driverDetailsMap);
-			
+			checkScreenOrientationIsInPortrait(driver);
 			Utility.swipingRightToLeft(driver, 0, 0);
 			
 		}catch(Exception e){
@@ -335,7 +342,7 @@ public class Action {
 		
 		try{
 			driver = (AndroidDriver) Setup.getDriver(deviceName, driverDetailsMap);
-			
+			checkScreenOrientationIsInPortrait(driver);
 			Utility.swipingLeftToRight(driver, 0, 0);
 		}catch(Exception e){
 			
@@ -356,6 +363,7 @@ public class Action {
 		
 		try{
 			WebDriver driver = Setup.getDriver(deviceName, driverDetailsMap);
+			checkScreenOrientationIsInPortrait(driver);
 			By identifierFindMethod = getIdentifierFindMethod(componentType, componentValue);
 			
 			componentStatus = waitUntilComponentDisplayed(driver, identifierFindMethod, componentValue, actionStarttime);
@@ -394,6 +402,20 @@ public class Action {
 		
 		return componentStatus;
 		
+	}
+	
+	//to check screen is in portrait
+	private static void checkScreenOrientationIsInPortrait(WebDriver driver) {
+		
+		try {
+			
+			if(((AndroidDriver) driver).getOrientation().equals(org.openqa.selenium.ScreenOrientation.LANDSCAPE)) {
+				((Rotatable) driver).rotate(org.openqa.selenium.ScreenOrientation.PORTRAIT);
+			}
+			
+		}catch(Exception e) {
+			e.printStackTrace();
+		}
 	}
 
 	

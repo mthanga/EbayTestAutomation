@@ -1,0 +1,36 @@
+Mar 06, 2018 9:38:19 PM script.ScriptRunner executeExcelAction
+INFO: Current Execution Method  => actionExecuteIfExpectedDeviceMatched
+Mar 06, 2018 9:38:19 PM script.ScriptRunner executeExcelAction
+INFO: Current method input  => 10.0
+Mar 06, 2018 9:38:19 PM script.ScriptRunner executeExcelAction
+INFO: Current method expected   => VIVO
+Mar 06, 2018 9:38:19 PM script.ScriptRunner executeExcelAction
+INFO: Current method actual   => VIVO
+Mar 06, 2018 9:38:20 PM script.ScriptRunner executeExcelAction
+INFO: Current Execution Method  => actionTabByCordinates
+Mar 06, 2018 9:38:20 PM script.ScriptRunner executeExcelAction
+INFO: Current method input  => 503,551
+Mar 06, 2018 9:38:25 PM script.ScriptRunner executeExcelAction
+INFO: Current method expected   => null
+Mar 06, 2018 9:38:25 PM script.ScriptRunner executeExcelAction
+INFO: Current method actual   => null
+Mar 06, 2018 9:38:25 PM script.ScriptRunner executeExcelAction
+INFO: Current Execution Method  => actionLongPressByCordinates
+Mar 06, 2018 9:38:25 PM script.ScriptRunner executeExcelAction
+INFO: Current method input  => 148,280
+Mar 06, 2018 9:38:29 PM script.ScriptRunner executeExcelAction
+INFO: Current method expected   => null
+Mar 06, 2018 9:38:29 PM script.ScriptRunner executeExcelAction
+INFO: Current method actual   => null
+Mar 06, 2018 9:38:30 PM script.ScriptRunner executeExcelAction
+INFO: Current Execution Method  => actionTabByCordinates
+Mar 06, 2018 9:38:30 PM script.ScriptRunner executeExcelAction
+INFO: Current method input  => 184,212
+Mar 06, 2018 9:38:35 PM script.ScriptRunner executeExcelAction
+INFO: Current method expected   => null
+Mar 06, 2018 9:38:35 PM script.ScriptRunner executeExcelAction
+INFO: Current method actual   => null
+Mar 06, 2018 9:38:35 PM script.ScriptRunner executeExcelAction
+INFO: Current Execution Method  => actionTabByCordinates
+Mar 06, 2018 9:38:35 PM script.ScriptRunner executeExcelAction
+INFO: Current method input  => 103,201

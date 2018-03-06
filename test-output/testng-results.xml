@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="testing" duration-ms="6030" started-at="2018-03-06T15:07:37Z" finished-at="2018-03-06T15:07:43Z">
+  <suite name="testing" duration-ms="204509" started-at="2018-03-06T16:09:23Z" finished-at="2018-03-06T16:12:48Z">
     <groups>
     </groups>
-    <test name="test1" duration-ms="6030" started-at="2018-03-06T15:07:37Z" finished-at="2018-03-06T15:07:43Z">
+    <test name="test1" duration-ms="204509" started-at="2018-03-06T16:09:23Z" finished-at="2018-03-06T16:12:48Z">
       <class name="script.ScriptRunner">
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:script.ScriptRunner@17ed40e0]" name="setup" is-config="true" duration-ms="17951" started-at="2018-03-06T20:37:19Z" finished-at="2018-03-06T20:37:37Z">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:script.ScriptRunner@17ed40e0]" name="setup" is-config="true" duration-ms="20941" started-at="2018-03-06T21:39:02Z" finished-at="2018-03-06T21:39:23Z">
           <params>
             <param index="0">
               <value>
@@ -18,11 +18,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="executeTestCase(java.lang.String, java.lang.String)[pri:0, instance:script.ScriptRunner@17ed40e0]" name="executeTestCase" duration-ms="6018" started-at="2018-03-06T20:37:37Z" finished-at="2018-03-06T20:37:43Z">
+        <test-method status="PASS" signature="executeTestCase(java.lang.String, java.lang.String)[pri:0, instance:script.ScriptRunner@17ed40e0]" name="executeTestCase" duration-ms="204494" started-at="2018-03-06T21:39:23Z" finished-at="2018-03-06T21:42:48Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[src/datasheet/Ebay1.xlsx]]>
+                <![CDATA[src/datasheet/Ebay.xlsx]]>
               </value>
             </param>
             <param index="1">
@@ -34,7 +34,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- executeTestCase -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:script.ScriptRunner@17ed40e0]" name="tearDown" is-config="true" duration-ms="9190" started-at="2018-03-06T20:37:43Z" finished-at="2018-03-06T20:37:52Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:script.ScriptRunner@17ed40e0]" name="tearDown" is-config="true" duration-ms="9183" started-at="2018-03-06T21:42:48Z" finished-at="2018-03-06T21:42:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
