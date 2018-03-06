@@ -34,8 +34,10 @@ public class Setup {
 			inputStream = new FileInputStream(new File(deviceConfigFileName));
 			XSSFWorkbook workbook = new XSSFWorkbook(inputStream);
 
+			//reading common config values from config.xlsx file
 			commonConfig = ReadData.readExcelKeyValueConfig(workbook.getSheet("CommonConfig"));
 			
+			//reading device config values from config.xlsx file
 			inputMap = ReadData.readExcelKeyValueConfig(workbook.getSheet("DeviceConfig"));
 
 			// Getting device details
@@ -46,6 +48,7 @@ public class Setup {
 				System.exit(0);
 			}
 
+			//to launch specified app which is mentioned in the config file
 			File app = new File(inputMap.get(CommonConstant.APK_FILE_OR_WEBDRIVER_PATH));
 
 			DesiredCapabilities capabilities = new DesiredCapabilities();
@@ -60,14 +63,13 @@ public class Setup {
 			capabilities.setCapability(MobileCapabilityType.NEW_COMMAND_TIMEOUT, 500000);
 			capabilities.setJavascriptEnabled(true);
 			driverUrl = inputMap.get(CommonConstant.DRIVER_URL);
-			//driverUrl = driverUrl.replace("Port", "4723");
 
 			driver = new AndroidDriver(new URL(driverUrl), capabilities);
 			driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
 
 			driverMap.put(CommonConstant.DEVICE_IDENTIFIER, driver);
 			driverMap.put(CommonConstant.DEVICE_NAME, inputMap.get(CommonConstant.DEVICE_NAME));
-
+			
 			inputStream.close();
 		} catch (Exception e) {
 			e.printStackTrace();

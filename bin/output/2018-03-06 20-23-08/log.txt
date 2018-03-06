@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-03-06T20:23:09</date>
+  <millis>1520347989050</millis>
+  <sequence>2</sequence>
+  <logger>ScriptRunner</logger>
+  <level>INFO</level>
+  <class>script.ScriptRunner</class>
+  <method>executeExcelAction</method>
+  <thread>12</thread>
+  <message>Current Execution Method  =&gt; actionExecuteIfExpectedDeviceMatched</message>
+</record>
+<record>
+  <date>2018-03-06T20:23:09</date>
+  <millis>1520347989051</millis>
+  <sequence>3</sequence>
+  <logger>ScriptRunner</logger>
+  <level>INFO</level>
+  <class>script.ScriptRunner</class>
+  <method>executeExcelAction</method>
+  <thread>12</thread>
+  <message>Current method input  =&gt; 1.0</message>
+</record>
+<record>
+  <date>2018-03-06T20:23:09</date>
+  <millis>1520347989078</millis>
+  <sequence>4</sequence>
+  <logger>ScriptRunner</logger>
+  <level>INFO</level>
+  <class>script.ScriptRunner</class>
+  <method>executeExcelAction</method>
+  <thread>12</thread>
+  <message>Current method expected   =&gt; VIVO</message>
+</record>
+<record>
+  <date>2018-03-06T20:23:09</date>
+  <millis>1520347989079</millis>
+  <sequence>5</sequence>
+  <logger>ScriptRunner</logger>
+  <level>INFO</level>
+  <class>script.ScriptRunner</class>
+  <method>executeExcelAction</method>
+  <thread>12</thread>
+  <message>Current method actual   =&gt; VIVO</message>
+</record>
+<record>
+  <date>2018-03-06T20:23:09</date>
+  <millis>1520347989849</millis>
+  <sequence>6</sequence>
+  <logger>ScriptRunner</logger>
+  <level>INFO</level>
+  <class>script.ScriptRunner</class>
+  <method>executeExcelAction</method>
+  <thread>12</thread>
+  <message>Current Execution Method  =&gt; actionTabByCordinates</message>
+</record>
+<record>
+  <date>2018-03-06T20:23:09</date>
+  <millis>1520347989849</millis>
+  <sequence>7</sequence>
+  <logger>ScriptRunner</logger>
+  <level>INFO</level>
+  <class>script.ScriptRunner</class>
+  <method>executeExcelAction</method>
+  <thread>12</thread>
+  <message>Current method input  =&gt; 503,551</message>
+</record>
+<record>
+  <date>2018-03-06T20:23:15</date>
+  <millis>1520347995005</millis>
+  <sequence>8</sequence>
+  <logger>ScriptRunner</logger>
+  <level>INFO</level>
+  <class>script.ScriptRunner</class>
+  <method>executeExcelAction</method>
+  <thread>12</thread>
+  <message>Current method expected   =&gt; null</message>
+</record>
+<record>
+  <date>2018-03-06T20:23:15</date>
+  <millis>1520347995006</millis>
+  <sequence>9</sequence>
+  <logger>ScriptRunner</logger>
+  <level>INFO</level>
+  <class>script.ScriptRunner</class>
+  <method>executeExcelAction</method>
+  <thread>12</thread>
+  <message>Current method actual   =&gt; null</message>
+</record>
+</log>

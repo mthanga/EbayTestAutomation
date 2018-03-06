@@ -26,6 +26,7 @@ import com.relevantcodes.extentreports.LogStatus;
 
 import constant.CommonConstant;
 import initialize.Setup;
+import io.appium.java_client.android.AndroidDriver;
 import rwData.ReadData;
 import rwData.WriteData;
 import util.Utility;
@@ -48,6 +49,8 @@ public class ScriptRunner {
 		try {
 
 			Setup setup = new Setup();
+			
+			//to initialize android driver
 			driverMap = setup.initialize(deviceConfigFileName);
 
 			Date date = new Date();
@@ -98,8 +101,10 @@ public class ScriptRunner {
 
 		try {
 
+			//copy and paste prepared test case from datasheet folder to output folder
 			sourceTestCase = WriteData.copyTestCaseFiles(inputTestCaseName, outputTestCasePath, outputFolderTime);
 
+			//to initialize extend report for test results to view in graphical report manner
 			extentTest = extentReport.startTest(sourceTestCase);
 
 			destinationTestCase = outputTestCasePath + File.separator + outputFolderTime + File.separator + sourceTestCase;
@@ -113,6 +118,7 @@ public class ScriptRunner {
 				String sheetName = sheet.getSheetName();
 				int lastRowNumber = sheet.getLastRowNum();
 
+				//reading all the locators from the test case sheet i.e from excel file
 				if (sheetName.equals("LocatorMapping")) {
 					locatorMap = ReadData.readExcelKeyValueForLocatorMapping(sheet);
 				}
@@ -120,6 +126,7 @@ public class ScriptRunner {
 				if (!sheetName.equals("LocatorMapping") && !sheetName.equals("Summary")
 						&& !(sheetName.equals("DataSheet"))) {
 
+					//executing each and every action from the test case
 					resultCountMap = executeExcelAction(devicesToRun, locatorMap, testCaseStartNumber, lastRowNumber, sheetNumber, sheet, destinationTestCase);
 				}
 
@@ -222,7 +229,6 @@ public class ScriptRunner {
 
 							componentValue = getComponentValueFromMapping(locatorMap, destinationTestCase, sheetName, deviceName, componentLocator);
 
-							System.out.println("componentValue ==> " + componentValue);
 							inputParamMap.put("componentType", locatorMap.get(componentLocator).split("-")[0]);
 							inputParamMap.put("componentValue", componentValue);
 						}
@@ -248,9 +254,7 @@ public class ScriptRunner {
 						logger.info("Current method actual   => "+actualMessage);
 						
 						testCaseStatus = CommonConstant.PASS;
-						if (!actionMethodName.equals("actionExecuteIfComponentTextMatching")
-								&& !actionMethodName.equals("actionExecuteIfComponentDisplayed")
-								&& !actionMethodName.equals("actionExecuteIfExpectedDeviceMatched")) {
+						if (!actionMethodName.equals("actionExecuteIfExpectedDeviceMatched")) {
 
 							if (Utility.isNotNull(expectedMessage) && Utility.isNotNull(actualMessage)) {
 
@@ -296,7 +300,6 @@ public class ScriptRunner {
 									extentTest.log(LogStatus.FAIL, description);
 
 								} else {
-									// actualMessage = " ";
 									passCount = passCount + 1;
 
 									extentTest.log(LogStatus.PASS, description);
@@ -327,9 +330,7 @@ public class ScriptRunner {
 						actualMessageCellNumber = CommonConstant.TESTCASE_ACTUAL_COLUMN_NUMBER;
 
 						// Skipping test case steps based on if action
-						if (actionMethodName.equals("actionExecuteIfComponentTextMatching")
-								|| actionMethodName.equals("actionExecuteIfComponentDisplayed")
-								|| actionMethodName.equals("actionExecuteIfExpectedDeviceMatched")) {
+						if (actionMethodName.equals("actionExecuteIfExpectedDeviceMatched")) {
 							String[] inputArray = userInput.split(",");
 							trueSteps = Integer.parseInt(inputArray[0].trim().split("\\.")[0]);
 							if (inputArray.length > 1) {
@@ -364,13 +365,14 @@ public class ScriptRunner {
 		String actionStarttime = " ";
 		DateFormat dateFormat = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss");
 		try {
+			//to fetch available action methods from Action.java file and invoke equivalent
+			//action method based on each test case step using java reflection concepts
 			ClassLoader myClassLoader = ClassLoader.getSystemClassLoader();
 			String classNameToBeLoaded = "actions.Action";
 			Class<?> myClass = myClassLoader.loadClass(classNameToBeLoaded);
 			Object whatInstance = myClass.newInstance();
 			method = myClass.getMethods();
-			System.out.println("Currently executing method............" + actionMethodName + "  "
-					+ Thread.currentThread().getId());
+			System.out.println("Currently executing method............" + actionMethodName + "  " + Thread.currentThread().getId());
 			Date date = new Date();
 
 			for (int index = 0; index < method.length; index++) {
@@ -400,6 +402,7 @@ public class ScriptRunner {
 		return actualMessage;
 	}
 
+	//getting component value from test case
 	private static String getComponentValueFromMapping(HashMap<String, String> locatorMap, String destinationTestCase, String sheetName, String deviceName, String componentLocator) {
 
 		String componentValue = null;
@@ -420,6 +423,12 @@ public class ScriptRunner {
 
 		try {
 			extentReport.flush();
+			
+			//to close the launched android application
+			AndroidDriver driver = (AndroidDriver) driverMap.get(CommonConstant.DEVICE_IDENTIFIER);
+			driver.quit();
+			
+			// sending test results to configured mail 
 			Utility.sendMailForTestCaseResult(outputTestCasePath, outputFolderTime, totalPassedCount, totalFailedCount);
 
 		} catch (Exception e) {
