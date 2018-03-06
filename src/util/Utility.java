@@ -228,8 +228,6 @@ public class Utility {
 			    		  		+"<h4>Automation Test results attached on e-mail. </h4>"
 			    		  		+"&nbsp;"
 			    		  		+"Thanks <br>"
-			    		  		+"&nbsp;"
-			    		  		+"<i>Ionixx Technologies</i>"
 			    		  		+"</body></html>";
 			      
 			      msg.setText(body, "UTF-8");

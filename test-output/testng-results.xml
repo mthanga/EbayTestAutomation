@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="testing" duration-ms="204509" started-at="2018-03-06T16:09:23Z" finished-at="2018-03-06T16:12:48Z">
+  <suite name="testing" duration-ms="199716" started-at="2018-03-06T17:19:01Z" finished-at="2018-03-06T17:22:21Z">
     <groups>
     </groups>
-    <test name="test1" duration-ms="204509" started-at="2018-03-06T16:09:23Z" finished-at="2018-03-06T16:12:48Z">
+    <test name="test1" duration-ms="199716" started-at="2018-03-06T17:19:01Z" finished-at="2018-03-06T17:22:21Z">
       <class name="script.ScriptRunner">
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:script.ScriptRunner@17ed40e0]" name="setup" is-config="true" duration-ms="20941" started-at="2018-03-06T21:39:02Z" finished-at="2018-03-06T21:39:23Z">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:script.ScriptRunner@17ed40e0]" name="setup" is-config="true" duration-ms="39740" started-at="2018-03-06T22:48:21Z" finished-at="2018-03-06T22:49:01Z">
           <params>
             <param index="0">
               <value>
@@ -18,7 +18,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="executeTestCase(java.lang.String, java.lang.String)[pri:0, instance:script.ScriptRunner@17ed40e0]" name="executeTestCase" duration-ms="204494" started-at="2018-03-06T21:39:23Z" finished-at="2018-03-06T21:42:48Z">
+        <test-method status="PASS" signature="executeTestCase(java.lang.String, java.lang.String)[pri:0, instance:script.ScriptRunner@17ed40e0]" name="executeTestCase" duration-ms="199703" started-at="2018-03-06T22:49:01Z" finished-at="2018-03-06T22:52:21Z">
           <params>
             <param index="0">
               <value>
@@ -34,7 +34,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- executeTestCase -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:script.ScriptRunner@17ed40e0]" name="tearDown" is-config="true" duration-ms="9183" started-at="2018-03-06T21:42:48Z" finished-at="2018-03-06T21:42:57Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:script.ScriptRunner@17ed40e0]" name="tearDown" is-config="true" duration-ms="9999" started-at="2018-03-06T22:52:21Z" finished-at="2018-03-06T22:52:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
